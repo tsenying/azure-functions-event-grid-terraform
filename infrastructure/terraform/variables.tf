@@ -12,5 +12,5 @@ variable "location" {
 variable "eventGridFunctionName" {
   type        = string
   description = "The name of the Function which handles Event Grid messages"
-  default     = "StorageHandler"
+  default     = "yh_event_grid_trigger"
 }
