@@ -1,12 +1,12 @@
 #Set the terraform required version
 terraform {
-  required_version = "~> 1.0.0"
+  required_version = ">=1.1.0"
   # Configure the Azure Provider
   required_providers {
     # It is recommended to pin to a given version of the Provider
     azurerm = {
       source  = "hashicorp/azurerm"
-      version = "~> 2.62.0"
+      # version = "~> 2.91.0"
     }
   }
 }
